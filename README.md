@@ -5,7 +5,7 @@
 
 ### This project demonstrates how to create a Lambda function to automate S3 file processing.
 
-* Create an S3 Bucket
+* Create an S3 Bucket  
 
 * Upload a test object to your bucket.
 
@@ -17,20 +17,34 @@
 
 #### Step-by-Step Instructions on how to create a Lambda function to automate S3 file processing.
 UPLOAD FILE TO S3 BUCKET
-*Type & Select S3 from the Amazon Search Bar.
-
+*Type & Select S3 from the AWS Search Bar.
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" />  
+</p>  
 * Select Create Bucket.
-
+  <p align="center">  
+  <img src="resources/S3 Select Create Bucket Initial.png" alt="Create an S3 Bucket" width="900" />  
+</p
 * Select General Purpose for your Bucket and Give Your Bucket a name.
-
+<p align="center">  
+  <img src="resources/s3 general configuration s3 info.png" alt="Select General Purpose & Give Bucket a Name" width="900" />  
+</p>  
 * Select the bucket that you just created.
-
+<p align="center">  
+  <img src="resources/S3 Select rececntly cereated bucket.png" alt="Select Recently Created Bucket" width="900" />  
+</p>  
 * Select the Upload Button.
-
+<p align="center">  
+  <img src="resources/S3 upload file to s3 buxket initial.png" alt="Select Initial Upload Bucket" width="900" />  
+</p>  
 * Select the add files button and additionally select the file that you want to upload.
-
+<p align="center">  
+  <img src="resources/EC2searchec2andselect.png" alt="Select Instance from AWS left-hand menu" width="900" />  
+</p>  
 * Select Upload at the bottom.
-
+<p align="center">  
+  <img src="resources/EC2searchec2andselect.png" alt="Select Instance from AWS left-hand menu" width="900" />  
+</p>  
 
 CREATE IAM POLICY & ROLE TO ALLOW LAMBDA TO GET OBJECTS FROM AN S3 BUCKET AND TO WRITE TO AMAZON CLOUD WATCH
 
