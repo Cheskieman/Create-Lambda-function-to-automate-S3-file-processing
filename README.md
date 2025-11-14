@@ -39,42 +39,68 @@ UPLOAD FILE TO S3 BUCKET
 </p>  
 * Select the add files button and additionally select the file that you want to upload.
 <p align="center">  
-  <img src="resources/EC2searchec2andselect.png" alt="Select Instance from AWS left-hand menu" width="900" />  
+  <img src="resources/S3 select add files button .png" alt="Select the Add Files Button" width="900" />  
 </p>  
 * Select Upload at the bottom.
 <p align="center">  
-  <img src="resources/EC2searchec2andselect.png" alt="Select Instance from AWS left-hand menu" width="900" />  
+  <img src="resources/s3 select the upload button end.png" alt="Select at Bottom Upload Button." width="900" />  
 </p>  
 
-CREATE IAM POLICY & ROLE TO ALLOW LAMBDA TO GET OBJECTS FROM AN S3 BUCKET AND TO WRITE TO AMAZON CLOUD WATCH
+CREATE IAM POLICY & ROLE TO ALLOW LAMBDA TO GET OBJECTS FROM AN S3 BUCKET AND TO WRITE TO AMAZON CLOUDWATCH
 
 
 * Search and select IAM from the AWS search bar
-
+<p align="center">  
+  <img src="resources/IAM Select iam from aws search bar.png" alt=" Select IAM from AWS Searchbar" width="900" />  
+</p>  
 * Select Policies from the left-hand options bar. 
-
+<p align="center">  
+  <img src="resources/iam select policies from left handed options.png" alt="Select Policies from left hand options." width="900" />  
+</p>  
 * Select the Create Policy Button.
-
+<p align="center">  
+  <img src="resources/IAM Select Create Policy button initial.png" alt="Select the intial Create Policy Button." width="900" />  
+</p>  
 * Select the JSON Tab.
-
+<p align="center">  
+  <img src="resources/IAM select the JSON TAB .png" alt="Select the JSON Policy Tab" width="900" />  
+</p>  
 * Paste the below JSON Policy into the JSON Policy Editor.
-
-*Click Next at the bottom of the page.
-
+<p align="center">  
+  <img src="resources/IAM Actual JSON Policy.png" alt="Actual JSON Policy" width="900" />  
+</p>  
+*Select Next at the bottom of the page.
+<p align="center">  
+  <img src="resources/IAM Click the next button bottom JSON Polcy Editor Page.png" alt=" Select Next at the Bottom of the page" width="900" />  
+</p>  
 * Give your policy a name.
-
+<p align="center">  
+  <img src="resources/IAM Give Policy Name .png" alt=" Give your Policy a name." width="900" />  
+</p>  
 * Select Create Policy at the bottom of the page.
-
+<p align="center">  
+  <img src="resources/IAM create policy button end.png" alt=" Select Create Policy at bottom of page" width="900" />  
+</p>  
 * Select Roles from the left-handed options bar
-
+<p align="center">  
+  <img src="resources/ROLES Select Roles from left handed options.png" alt=" Select Roles from left-handed-options" width="900" />  
+</p>  
 * Click Create Role
-
+<p align="center">  
+  <img src="resources/ROLES Click Create Role Button initial.png" alt=" Select Inital Create Role" width="900" />  
+</p>  
 * Select AWS service as the trusted entity type.
-
+<p align="center">  
+  <img src="resources/ROLES Select Trusted Entity for Role.png" alt=" Select Trusted Entity" width="900" />  
+</p>  
 * Select Lambda for the roles use case.
-
+<p align="center">  
+  <img src="resources/ROLES Select Trusted Entity for Role.png" alt=" Select Trusted Entity" width="900" />  
+</p>  
 * Select Next at the bottom of the select trusted entity page.
-
+<p align="center">  
+  <img src="resources/ROLES Select Trusted Entity for Role.png" alt=" Select Trusted Entity" width="900" />  
+</p>  
 * In the search box, type the policy that was created earlier and select it.
 
 * Select Next at the bottom of the add permissions page.
