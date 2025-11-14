@@ -95,45 +95,87 @@ CREATE IAM POLICY & ROLE TO ALLOW LAMBDA TO GET OBJECTS FROM AN S3 BUCKET AND TO
 </p>  
 * Select Lambda for the roles use case.
 <p align="center">  
-  <img src="resources/ROLES Select Trusted Entity for Role.png" alt=" Select Trusted Entity" width="900" />  
+  <img src="resources/AWS Select Lambda as Use Case for role.png" alt=" Select Lambda as Use Case" width="900" />  
 </p>  
 * Select Next at the bottom of the select trusted entity page.
 <p align="center">  
-  <img src="resources/ROLES Select Trusted Entity for Role.png" alt=" Select Trusted Entity" width="900" />  
+  <img src="resources/ROLE Click Next bottom of Select trusted entity page .png" alt=" Select Next bottom of page" width="900" />  
 </p>  
 * In the search box, type the policy that was created earlier and select it.
-
+<p align="center">  
+  <img src="resources/ROLE Search and Select policy created earlier.png" alt=" Select Policy Created Earlier" width="900" />  
+</p>  
 * Select Next at the bottom of the add permissions page.
-
+<p align="center">  
+  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Next Bottom of Permissions Page" width="900" />  
+</p>  
 * Give your Role a Name.
-
+<p align="center">  
+  <img src="resources/ROLES Select Next add permissions page.png" alt=" Give Role a Name" width="900" />  
+</p>  
 * Select the Create Role button at the bottom of the page.
-
+<p align="center">  
+  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+</p>  
 
 CREATING A LAMBDA FUNCTION:
 
 * Search and select Lambda from the AWS search bar
+<p align="center">  
+  <img src="resources/LAMBDA Select Lambda from AWS Search bar.png" alt=" Select Lambda AWS Search Bar " width="900" />  
+</p>  
 
-* Select the Lambda Function
+* Select Create Function
+<p align="center">  
+  <img src="resources/LAMBDA Select create function initial.png" alt=" Select Create Function" width="900" />  
+</p>  
+ 
 
 * Give your function a name.
+<p align="center">  
+  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+</p>  
 
 * Select Python 3.13 from the runtime dialog box.
+<p align="center">  
+  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+</p>  
 
 * Select X86_64 from architecture.
+<p align="center">  
+  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+</p>  
 
 * Select Use an existing role from the Change default execution role section.
+<p align="center">  
+  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+</p>  
 
 * Select the role you created from earlier as the existing role.
+<p align="center">  
+  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+</p>  
 
 * Select the Create Function button at the bottom.
+<p align="center">  
+  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+</p>  
 
 * Select the Function recently created.
+<p align="center">  
+  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+</p>  
 
 * In the code source, paste the below Python code into the Lambda Code Editor Box.
+<p align="center">  
+  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+</p>  
 
 * Select Deploy from the Deploy Section.
 
+<p align="center">  
+  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+</p>  
 
 
 CREATING AN AMAZON S3 TRIGGER EVENT NOTIFICATION USING LAMBDA
@@ -201,6 +243,13 @@ VERIFY THE FUNCTION WAS TRIIGERED USING CLOUDWATCH LOGS
 * If the function was triggered correctly, the log stream will look something similar to below photo.
       
 
+
+
+
+* Select the Lambda Function
+<p align="center">  
+  <img src="" alt=" Select Create Role" width="900" />  
+</p> 
 
 
 ##### Contribution Policy
