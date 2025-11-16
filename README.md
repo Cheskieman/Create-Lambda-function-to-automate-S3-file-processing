@@ -13,7 +13,7 @@
 
 * Create and deploy a Lambda Function to be triggered when objects are uploaded to the S3 Bucket.
 
-* Create an event notification to trigger the S3 Bucket using a Lambda Function. 
+ 
 
 #### Step-by-Step Instructions on how to create a Lambda function to automate S3 file processing.
 UPLOAD FILE TO S3 BUCKET
