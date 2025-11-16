@@ -111,18 +111,18 @@ CREATE IAM POLICY & ROLE TO ALLOW LAMBDA TO GET OBJECTS FROM AN S3 BUCKET AND TO
 </p>  
 * Give your Role a Name.
 <p align="center">  
-  <img src="resources/ROLES Select Next add permissions page.png" alt=" Give Role a Name" width="900" />  
+  <img src="resources/ROLES give your role a name.png" alt=" Give Role a Name" width="900" />  
 </p>  
 * Select the Create Role button at the bottom of the page.
 <p align="center">  
-  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+  <img src="resources/ROLES Click Create Role Button initial.png" alt=" Select Create Role" width="900" />  
 </p>  
 
 CREATING A LAMBDA FUNCTION:
 
 * Search and select Lambda from the AWS search bar
 <p align="center">  
-  <img src="resources/LAMBDA Select Lambda from AWS Search bar.png" alt=" Select Lambda AWS Search Bar " width="900" />  
+  <img src="resources/LAMBDA Select Lamabda from AWS Search bar.png" alt=" Select Lambda from AWS Searchbar " width="900" />  
 </p>  
 
 * Select Create Function
@@ -133,48 +133,47 @@ CREATING A LAMBDA FUNCTION:
 
 * Give your function a name.
 <p align="center">  
-  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+  <img src="resources/LAMBDA give your function a name.png" alt=" Give your function a name" width="900" />  
 </p>  
 
 * Select Python 3.13 from the runtime dialog box.
 <p align="center">  
-  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+  <img src="resources/LAMBDA choose python as runtime.png" alt=" Choose Python as runtime" width="900" />  
 </p>  
 
 * Select X86_64 from architecture.
 <p align="center">  
-  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+  <img src="resources/LAMBDA choose architecture.png" alt=" Select Architecture" width="900" />  
 </p>  
 
 * Select Use an existing role from the Change default execution role section.
 <p align="center">  
-  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+  <img src="resources/LAMBDA choose use an existing role.png" alt=" Select Use an Existing Role" width="900" />  
 </p>  
 
-* Select the role you created from earlier as the existing role.
+* Select the role you created earlier as the existing role.
 <p align="center">  
-  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+  <img src="resources/LAMBDA Select the existing role created earlier.png" alt=" Select Create Role" width="900" />  
 </p>  
 
 * Select the Create Function button at the bottom.
 <p align="center">  
-  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+  <img src="resources/LAMBDA Select the Create Function button end.png" alt="Select Create Function button" width="900" />  
 </p>  
 
 * Select the Function recently created.
 <p align="center">  
-  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+  <img src="resources/LAMBDA Select the Create Function button end.png" alt=" Select Function Recently Created." width="900" />  
 </p>  
 
 * In the code source, paste the below Python code into the Lambda Code Editor Box.
 <p align="center">  
-  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+  <img src="resources/LAMBDA Select the Create Function button end.png" alt="Python Code" width="900" />  
 </p>  
 
 * Select Deploy from the Deploy Section.
-
 <p align="center">  
-  <img src="resources/ROLES Select Next add permissions page.png" alt=" Select Create Role" width="900" />  
+  <img src="resources/LAMBDA Select the Create Function button end.png" alt=" Select Deploy" width="900" />  
 </p>  
 
 
