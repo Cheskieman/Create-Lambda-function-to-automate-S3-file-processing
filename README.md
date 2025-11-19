@@ -180,19 +180,34 @@ CREATING A LAMBDA FUNCTION:
 CREATING AN AMAZON S3 TRIGGER EVENT NOTIFICATION USING LAMBDA
   
 * Type & Select S3 from the Amazon Search Bar.
+<p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt=" Select S3 Bucket from AWS Searchbar" width="900" />  
+</p>  
 
 * Select the Bucket that was created earlier.
+<p align="center">  
+  <img src="resources/BACKINS3 select the earlier created bucket.png" alt=" Select earlier created bucket." width="900" />  
+</p>  
 
 * Select the Properties Tab.
+ <p align="center">  
+  <img src="resources/BACKINS3select the properties tab.png" alt=" Select Properties Tab" width="900" />  
 
-* Scroll down to Event Notification and select Create Event Notification.
+ * Scroll down to Event Notification and select Create Event Notification.
+<p align="center">  
+  <img src="resources/BACKINS3CLICKCREATEEVENTNOTIFICATION.png" alt=" Select Deploy" width="900" />  
 
-* Select the checkbox that says all objects create events in the events type section.
+ * Select the checkbox that says all objects create events in the events type section.
+<p align="center">  
+  <img src="resources/BACKINS3CLICKCREATEEVENTNOTIFICATION.png" alt=" Select Deploy" width="900" />  
 
-* Select the Lambda Function that was created earlier from the Lambda Function dropdown box.
+ * Select the Lambda Function that was created earlier from the Lambda Function dropdown box.
+<p align="center">  
+  <img src="resources/backins3 select lambda function created earlier.png" alt=" Select Lambda Function Created Earlier" width="900" />  
 
-* Select Save Changes at the bottom of the page.
-
+ * Select Save Changes at the bottom of the page.
+<p align="center">  
+  <img src="resources/BACKINS3 select save changes.png" alt=" Save Changes at the bottom of the page." width="900" />  
 
 TEST THE LAMBDA FUNCTION USING A DUMMY EVENT
 
