@@ -163,17 +163,17 @@ CREATING A LAMBDA FUNCTION:
 
 * Select the Function recently created.
 <p align="center">  
-  <img src="resources/LAMBDA Select the Create Function button end.png" alt=" Select Function Recently Created." width="900" />  
+  <img src="resources/LAMBDA Select the Function just created.png" alt=" Select Function Recently Created." width="900" />  
 </p>  
 
 * In the code source, paste the below Python code into the Lambda Code Editor Box.
 <p align="center">  
-  <img src="resources/LAMBDA Select the Create Function button end.png" alt="Python Code" width="900" />  
+  <img src="resources/lambda python code .png" alt="Python Code" width="900" />  
 </p>  
 
 * Select Deploy from the Deploy Section.
 <p align="center">  
-  <img src="resources/LAMBDA Select the Create Function button end.png" alt=" Select Deploy" width="900" />  
+  <img src="resources/lambda python code .png" alt=" Select Deploy" width="900" />  
 </p>  
 
 
