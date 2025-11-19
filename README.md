@@ -242,7 +242,7 @@ TEST THE LAMBDA FUNCTION USING A DUMMY EVENT
   * Select the Save button when you scroll up.
 
    <p align="center">  
-  <img src="resources/TESTYOURLAMBDAFUNCTION paste code into JSON for testing.png" alt=" Click Save" width="900" />  
+  <img src="resources/TESTYOURLAMBDAFUNCTION click save button.png" alt=" Click Save" width="900" />  
   
   * Select the Test button that is directly to the right of Save.
   <p align="center">  
