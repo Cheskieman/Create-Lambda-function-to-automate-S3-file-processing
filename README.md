@@ -173,7 +173,7 @@ CREATING A LAMBDA FUNCTION:
 
 * Select Deploy from the Deploy Section.
 <p align="center">  
-  <img src="resources/lambda python code .png" alt=" Select Deploy" width="900" />  
+  <img src="resources/LAMBDA Select Deploy .png" alt=" Select Deploy" width="900" />  
 </p>  
 
 
