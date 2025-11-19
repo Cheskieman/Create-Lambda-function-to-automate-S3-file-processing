@@ -212,37 +212,63 @@ CREATING AN AMAZON S3 TRIGGER EVENT NOTIFICATION USING LAMBDA
 TEST THE LAMBDA FUNCTION USING A DUMMY EVENT
 
 * Search and select Lambda from the AWS search bar
+<p align="center">  
+  <img src="resources/LAMBDA Select Lamabda from AWS Search bar.png" alt=" Save Changes at the bottom of the page." width="900" />  
 
-* Select the earlier created Lambda Function.
+ * Select the earlier created Lambda Function.
+
+<p align="center">  
+  <img src="resources/TESTYOURLAMBDAFUNCTION select earlier created function.png" alt=" Select the earlier created Lambda Function." width="900" />  
 
 * Select Test from the options.
 
+<p align="center">  
+  <img src="resources/TESTYOURLAMBDAFUNCTION select test from options.png" alt=" Select test from options." width="900" />  
+
 * Scroll down and give your test a name in the Event Name box.
+
+  <p align="center">  
+  <img src="resources/TESTYOURLAMBDAFUNCTION give event name name.png" alt=" Give your test a name." width="900" />  
 
  * Paste the below Test Event JSON Policy into the Event JSON Policy Editor. Replace the following values:
 
    * Replace us-east-1 with the region where you are located.
    * Replace upload-trigger-bucket1 with the name of the S3 Bucket that you created.
    * Replace happyface.jpg with the name of the test object that you created.
+  
+      <p align="center">  
+  <img src="resources/TESTYOURLAMBDAFUNCTION paste code into JSON for testing.png" alt=" Test JSON Policy." width="900" />   
 
   * Select the Save button when you scroll up.
- 
+
+   <p align="center">  
+  <img src="resources/TESTYOURLAMBDAFUNCTION paste code into JSON for testing.png" alt=" Click Save" width="900" />  
   
   * Select the Test button that is directly to the right of Save.
-
+  <p align="center">  
+  <img src="resources/TESTYOURLAMBDAFUNCTION click TEST button.png" alt=" Select the Test Button." width="900" />  
 
 TEST THE LAMBDA FUNCTION WITH THE AMAZON S3 TRIGGER
 
-* Type & Select S3 from the Amazon Search Bar.
+* Type & Select S3 from the AWS Search Bar.
+  <p align="center">  
+  <img src="resources/S3 Search AWS Search Bar s3.png" alt=" Search and Select S3 ." width="900" />  
 
 * Select the Bucket that was created earlier.
+  <p align="center">  
+  <img src="resources/BACKINS3 select the earlier created bucket.png" alt=" Select the S3 Bucket created earlier." width="900" />  
 
 * Select the Upload Button
+  <p align="center">  
+  <img src="resources/s3 select the upload button end.png" alt=" Select the Upload Bucket." width="900" />  
 
 * Select the add files button and additionally select the file that you want to upload.
+  <p align="center">  
+  <img src="resources/S3 select add files button .png" alt=" Select the Add Files Button." width="900" />  
 
 *  Select Upload at the bottom.
-
+  <p align="center">  
+  <img src="resources/TESTYOURLAMBDAFUNCTION click TEST button.png" alt=" Select the Test Button." width="900" />  
 
 VERIFY THE FUNCTION WAS TRIIGERED USING CLOUDWATCH LOGS
 
