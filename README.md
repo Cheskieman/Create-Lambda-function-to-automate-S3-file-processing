@@ -1,7 +1,7 @@
 # Create-Lambda-function-to-automate-S3-file-processing.
 
 
-## Full  Step-by-Step guide with snapshots to describe and illustrate how to create a Lambda function to automate S3 file processing.
+## Full Step-by-Step guide with snapshots to describe and illustrate how to create a Lambda function to automate S3 file processing.
 
 ### This project demonstrates how to create a Lambda function to automate S3 file processing.
 
@@ -13,9 +13,13 @@
 
 * Create and deploy a Lambda Function to be triggered when objects are uploaded to the S3 Bucket.
 
- 
+* Test the Lambda Function using a Dummy Event
 
-#### Step-by-Step Instructions on how to create a Lambda function to automate S3 file processing.
+* Verify the function was triggered using CloudWatch Logs
+
+ 
+#### Step-by-Step Instructions for creating a Lambda function to automate S3 file processing.
+
 UPLOAD FILE TO S3 BUCKET
 *Type & Select S3 from the AWS Search Bar.
 <p align="center">  
@@ -268,28 +272,34 @@ TEST THE LAMBDA FUNCTION WITH THE AMAZON S3 TRIGGER
 
 *  Select Upload at the bottom.
   <p align="center">  
-  <img src="resources/TESTYOURLAMBDAFUNCTION click TEST button.png" alt=" Select the Test Button." width="900" />  
+  <img src="resources/TESTYOURLAMBDAFUNCTION upload file to s3bucket.png" alt=" Select the Upload Button." width="900" />  
 
 VERIFY THE FUNCTION WAS TRIIGERED USING CLOUDWATCH LOGS
 
 *  Search and select CloudWatch from the AWS search bar.
+ 
+  <p align="center">  
+  <img src="resources/CLOUDWATCH select cloudwatch from aws search bar.png" alt=" Select Cloudwatch." width="900" />  
 
-*  Select Log groups under logs on the left-hand side of the page.
+   *  Select Log groups under logs on the left-hand side of the page.
+
+  <p align="center">  
+  <img src="resources/CLOUDWATCH select log groups under logs.png" alt=" Select the Log Groups." width="900" />  
 
 *  Select the log group for your function by clicking on it
+  <p align="center">  
+  <img src="resources/CLOUDWATCH click on the log group.png" alt=" Click Log Groups." width="900" />  
 
-*  Select the most recent log stream.
+   *  Select the most recent log stream.
+  <p align="center">  
+  <img src="resources/CLOUDWATCH Select most recent log stream.png" alt=" Select the Upload Button." width="900" />  
 
-* If the function was triggered correctly, the log stream will look something similar to below photo.
-      
+   * If the function was triggered correctly, the log stream will look something similar to the photo below.
+        <p align="center">  
+  <img src="resources/CLOUDWATCH result succesful function trigger..png" alt=" Select the Upload Button." width="900" />  
 
 
 
-
-* Select the Lambda Function
-<p align="center">  
-  <img src="" alt=" Select Create Role" width="900" />  
-</p> 
 
 
 ##### Contribution Policy
