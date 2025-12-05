@@ -203,7 +203,7 @@ CREATING AN AMAZON S3 TRIGGER EVENT NOTIFICATION USING LAMBDA
 
  * Select the checkbox that says all objects create events in the events type section.
 <p align="center">  
-  <img src="resources/BACKINS3CLICKCREATEEVENTNOTIFICATION.png" alt=" Select Deploy" width="900" />  
+  <img src="resources/BACKINS3select all object create events.png" alt=" Select Deploy" width="900" />  
 
  * Select the Lambda Function that was created earlier from the Lambda Function dropdown box.
 <p align="center">  
